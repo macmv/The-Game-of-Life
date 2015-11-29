@@ -200,4 +200,6 @@ end
 
 end
 
+print "Enter file name to open (don't type anything, and it will randomly genorate a board): "
+
 TheGameOfLife::Screen.new(gets.chomp).show if __FILE__ == $0
