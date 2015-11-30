@@ -202,4 +202,8 @@ end
 
 print "Enter file name to open (don't type anything, and it will randomly generate a board): "
 
+# enter a file that is in the examples folder
+
+# a file in the examples folder has a "." for alive and a " " for dead
+
 TheGameOfLife::Screen.new(gets.chomp).show if __FILE__ == $0
